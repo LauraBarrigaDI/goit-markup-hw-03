@@ -1,0 +1,162 @@
+body{
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Navegación a otros sitios*/
+
+.logo{
+    color: #2196F3;
+    font-family: Raleway !important;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.active-link{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.active-link:hover{
+    color: #2196F3;
+}
+
+.contact-link{
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact-link:hover{
+    color: #2196F3;
+}
+
+/*--------------------*/
+/*Index*/
+/*--------------------*/
+
+/* Contenido único de la página*/
+
+.h1-title{
+    color: #FFFFFF;
+    background-color: #2F303A;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.button-index{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*Valores de la compañía*/
+
+.values{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase
+}
+
+.values-description{
+    color: #757575 !important;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/*Secciones*/
+
+.h2-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2px;
+    text-align: center;
+}
+
+.team-members{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.position{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+/*Pie de página*/
+
+.add{
+    color:#FFFFFF;
+    background-color: #2F303A;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-contact-link{
+    color: rgba(255, 255, 255, 0.6);;
+    background-color: #2F303A;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/*--------------------*/
+/*Portfolio*/
+/*--------------------*/
+
+/*Contenido único de la página*/
+
+.active-button{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+.active-button:hover{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+/*Secciones*/
+
+.list-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.list-description{
+    color: #757575 !important;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+/*Pie de página*/
+
+.social-media{
+    color: #FFFFFF;
+    background-color: #2F303A;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
