@@ -6,6 +6,15 @@ body{
 
 /*Navegación a otros sitios*/
 
+.container{
+    display: flex;
+    width: 1200px;
+    margin:auto;
+    padding-top: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo{
     color: #2196F3;
     font-family: Raleway !important;
@@ -13,6 +22,7 @@ body{
     font-weight: 700;
     line-height: 1.2;
     text-decoration: none;
+    margin-right: 93px;
 }
 .active-link{
     color: #212121;
@@ -20,6 +30,7 @@ body{
     font-weight: 500;
     line-height: 1.2;
     text-decoration: none;
+    margin-right: 50px;
 }
 .active-link:hover{
     color: #2196F3;
