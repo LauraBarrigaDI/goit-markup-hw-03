@@ -4,13 +4,16 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+.container{
+    width: 1200px;
+}
+
 /*Navegación a otros sitios*/
 
-.container{
+.nav-container{
     display: flex;
     width: 1200px;
-    margin:auto;
-    padding-top: 24px;
+    padding: 24px;
     justify-content: space-between;
     align-items: center;
 }
@@ -54,34 +57,57 @@ body{
 
 /* Contenido único de la página*/
 
+.title-container {
+    display: flex;
+    height: 600px;
+    background-color: #2F303A;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .h1-title{
     color: #FFFFFF;
-    background-color: #2F303A;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
+    text-transform: uppercase;
     text-align: center;
+    padding-right: 280px;
+    padding-left: 280px;
 }
 
 .button-index{
     color: #FFFFFF;
     background-color: #2196F3;
+    border: 5px solid #2196F3;
+    border-radius: 5px;
     font-size: 16px;
     line-height: 1.9;
     font-weight: 700;
     cursor: pointer;
+    
 }
 
 /*Valores de la compañía*/
 
+.values-container{
+    display: flex;
+    margin-left: 30px;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    justify-content: space-evenly;
+   
+}
 .values{
     font-size: 14px;
     font-weight: 700;
     line-height: 1.1;
-    text-transform: uppercase
+    text-transform: uppercase;
+    
 }
 
 .values-description{
+    display: flex;
     color: #757575 !important;
     font-size: 14px;
     line-height: 1.7;
