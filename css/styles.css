@@ -198,9 +198,9 @@ body{
 .buttons{
     display: flex;
     margin-top: 106px;
-    margin-bottom: 50px;
-    padding-left: 10x;
+    padding-bottom: 56px;
     justify-content: center;
+    flex-basis: calc((100%-32px)/5);
 }
 .active-button{
     font-family: 'Roboto';
@@ -220,8 +220,29 @@ body{
 
 .project-container{
     display: flex;
-    justify-content: space-evenly;
+    padding: 20px;
+    padding-bottom: 90px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
+.card{
+    box-sizing: border-box;
+    width: 370px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-image{
+    display: block;
+}
+
+.card-heading{
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
 .list-title{
     font-weight: 700;
     font-size: 18px;
@@ -237,6 +258,9 @@ body{
 /*Pie de página*/
 
 .social-media{
+    display: flex;
+    order: -1;
+    align-self: center;
     color: #FFFFFF;
     background-color: #2F303A;
     font-weight: 700;
