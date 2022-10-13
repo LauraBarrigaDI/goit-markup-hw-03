@@ -14,8 +14,8 @@ body{
 
 .nav-container{
     display: flex;
-    padding: 24px;
-    justify-content: space-between;
+    padding: 32px;
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -178,11 +178,10 @@ body{
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 20px;
-    margin-bottom: 9px;
     background-color: #2F303A;
-    flex-direction: column;
-    
+    flex-wrap: wrap;
 }
+
 .add{
     color:#FFFFFF;
     font-style: normal;
@@ -278,8 +277,8 @@ body{
 
 .social-media{
     display: flex;
-    order: -1;
-    align-self: center;
+    justify-content: center;
+    align-self: flex-start;
     color: #FFFFFF;
     background-color: #2F303A;
     font-weight: 700;
